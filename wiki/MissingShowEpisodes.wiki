@@ -13,13 +13,13 @@ The program support
   * makes a list of a virtual files
   * checks which real file names are not in the virtual files
   * prints statistics
-  * debug option argument, which makes the program to print out each found and missing file
-    name.
+  * debug option argument, which makes the program to print out each found and missing file name.
+
 In order this program to diff the files, it uses a file match patter, which cuts the starting pattern of the file and the ending extension, so it leaves us the number.
 
 <font color="blue">*TODO:*</font> support end pattern, regex pattern and etc.
 
-So will need to count all the episoded from e.g: foo show, to do that we need to tell out program how much episode does the show/session got, it counts from 1 to max episodes, but what if we burned/deleted/backup-ed the episodes from 1 to 10, in order to count now, and get the correct results I added a minimum episode argument.
+So will need to count all the episoded from e.g: foo show, to do that we need to tell out program how much episodes does the show/session got, it counts from 1 to max episodes, but what if we burned/deleted/backup-ed the episodes from 1 to 10, in order to count now, and get the correct results I added a minimum episode argument.
 
 <font color="blue">*TODO:*</font> get automaticly the last number of episodes and the first number, asking the user to confirm the founded numbers.
 
