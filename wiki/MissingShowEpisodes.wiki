@@ -1,6 +1,6 @@
 #summary One-sentence summary of this page.
 #labels Phase-Design
-#sidebar TableOfContents
+
 = Introduction =
 
 Ever needed a command line tool or a Python module for a missing episodes counter, if yes, here is your chance to make your job easier (if there're simular projects, send links to the project owner that's me)
@@ -22,3 +22,6 @@ In order this program to diff the files, it uses a file match patter, which cuts
 So will need to count all the episoded from e.g: foo show, to do that we need to tell out program how much episode does the show/session got, it counts from 1 to max episodes, but what if we burned/deleted/backup-ed the episodes from 1 to 10, in order to count now, and get the correct results I added a minimum episode argument.
 
 <font color="blue">*TODO:*</font> get automaticly the last number of episodes and the first number, asking the user to confirm the founded numbers.
+
+== Screenshots ==
+[ScreenShotEN Screenshots EN]
