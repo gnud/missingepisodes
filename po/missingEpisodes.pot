@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-10 11:16+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: missingEpisodes.py:50
+#, python-format
+msgid "Existing: %s."
+msgstr ""
+
+#: missingEpisodes.py:53
+#, python-format
+msgid "Missing: %s."
+msgstr ""
+
+#: missingEpisodes.py:55
+msgid "They're: \n"
+msgstr ""
+
+#: missingEpisodes.py:59
+#, python-format
+msgid ""
+"\n"
+"\tUsage:\t%s path startPattern min max extension debug ...\n"
+"\t\tThe program is used to find missing \"episodes\" in a folder.\n"
+"\n"
+"\t\tpath\t\t- put the folder path, else put .\n"
+"\t\tstartPattern\t- the pattern sequence of the files, \n"
+"\t\t\t\t  e.g: fooEdition2:Section5\n"
+"\t\tmin\t\t- starting point.\n"
+"\t\tmax\t\t- ending point.\n"
+"\t\textension\t- the file extension e.g ogm, \"*\" for all types\n"
+"\t\tdebug\t\t- writes extended (eat my ass) data.\n"
+"\t\t-h, --help      - display this help and exit\n"
+msgstr ""
